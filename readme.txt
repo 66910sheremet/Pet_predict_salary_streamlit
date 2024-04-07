@@ -10,7 +10,7 @@ poetry run streamlit run app.py
 Или запуск контейнера из CLI:
 
 # Запуск контейнера Docker в фоновом режиме
-Start-Process -NoNewWindow -FilePath "docker" -ArgumentList "run", "-d", "-p", "8501:8501", "<имя_образа>"
+Start-Process -NoNewWindow -FilePath "docker" -ArgumentList "run", "-d", "-p", "8501:8501", salary_prediction
 
 # Проверка доступности порта 8501
 $serverAvailable = $false
