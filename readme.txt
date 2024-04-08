@@ -28,4 +28,8 @@ if ($serverAvailable) {
     Start-Process "http://localhost:8501"
 }
 
+
+Инструкция для сборки контейнера:
+docker build -t salary_prediction .
+
 PS: Добавить файлы gitignore and dockerignore 
