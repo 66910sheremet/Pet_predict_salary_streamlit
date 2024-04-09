@@ -32,4 +32,3 @@ if ($serverAvailable) {
 Инструкция для сборки контейнера:
 docker build -t salary_prediction .
 
-PS: Добавить файлы gitignore and dockerignore 
